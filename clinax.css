@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(138.16deg, #f4f1f1 -16.67%, #FFE8D5 23.49%);
+    color: rgba(70, 9, 68, 1);
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container1{
+
+    padding: 1.5em 0;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+} 
+.container3{
+    width: 60%;
+    margin-top: 4em;
+} 
+.heading1{
+    font-size: 50px;
+    width: 60%;
+}
+.para1{
+    font-size: 1.2rem;
+    margin: 1.5em 0;
+    width: 70%;
+}
+.link_item{
+    display: flex;
+    margin-top: 2em;
+}
+.link_item li{
+    list-style: none;
+    margin-right: 1em;
+}
+.link_item a{
+    text-decoration: none;
+    padding: .75em 1.5em;
+    border-radius: 17px;
+    font-size: 16px;
+}
+.Search_name{
+    background-color: rgba(114, 86, 157, 1);
+    color: white;
+    transition: all 1s ease;
+}
+
+.Search_location{
+    background-color: white;
+    color: rgba(70, 9, 68, 1);
+    transition: all 1s ease;
+}
+.container4{
+    margin-top: 1em;
+}
+.img_item{
+    position: relative;
+}
+.ellipse{
+    height: 100%;
+}
+.image5{
+    position: absolute;
+    top: -6em;
+    left: 0;
+    z-index: 1000;
+    height: 548px;
+}
+
+
+
+/*=========== Search Page ============*/
+
+.container5{
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0;
+}
+.search_holder{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 2em;
+    font-size: 16px;
+
+}
+input[type = "search"]{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    font-size: 18px;
+    margin: 0 1em;
+}
+.search{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.71);
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding: 1em 0;
+    margin-left: 1em;
+}
+.search > img{
+    margin: 0 1em;
+}
+.container6{
+    width: 50%;
+    margin: 0 auto;
+}
+.container7{
+    background: rgba(255, 255, 255, 0.71);
+    padding: .75em 1.5em; 
+    border-radius: 17px;
+}  
+
+.container8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.important_para{
+    width: 88%;
+    margin: -2em auto 0 auto;
+    position: relative;
+
+}
+.container9{
+    margin: 1.5em 0;
+}
+
+.search_container{
+    display: flex;
+    margin: 1em 0;
+    align-items: flex-start;
+}
+.direction_link{
+    text-decoration: none;
+    color: rgba(70, 9, 68, 1);
+}
+.search_container img{
+    margin-right: 1em;
+    margin-top: .3em;
+}
+
+
+/*================ Location Page =================*/
+
+.location{
+    width: 80%;
+    margin: 1em auto;
+    max-width: 1200px;
+}
+.location_container{
+    display: flex;
+}
+.container11{
+    background-color: white;
+    padding: 2em;
+   border-radius: 5px;
+
+}
+.location_image{
+    max-width: 65%;
+}
+
+
+/*============ Direction Page ================*/
+
+.container12{
+    width: 60%;
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    top: -5em;
+}
+.location_direction{
+    margin-bottom: 1em;
+}
+.opening{
+    display: flex;
+    align-items: center;
+}
+.hospital_image{
+    display: flex;
+}
+.img2{
+    background: url(images/Rectangle\ 13.png);
+    height: 50vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    margin-right: .5em;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.img3{
+    background: url(images/Rectangle\ 14.png);
+    height: 50vh;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.btn1{
+    color: white;
+    background: rgba(114, 86, 157, 1);
+    padding: .75em 1em;
+    border: 1px solid rgba(114, 86, 157, 1);
+    margin-right: .75em;
+    border-radius: 10px;
+}
+.direction{
+    margin: 2em 0;
+}
+.about_clinic{
+    margin-bottom: 1em;
+}
+.about_clinic h1{
+    margin: 1em 0;
+}
+
+
+@media only screen and (max-width:600px){
+    body{
+        font-size: 14px;
+    }
+    .container{
+        width: 90%;
+    }
+    .container2{
+       flex-direction: column-reverse;
+       width: 100%;
+    } 
+    .container3{
+        width: 100%;
+        margin-top: 4em;
+    } 
+    .heading1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .para1{
+        font-size: 14px;
+        margin: 1.5em 0;
+        width: 100%;
+    }
+    .link_item{
+        display: grid;
+        margin: 0 auto 1em auto;
+    }
+    .link_item li{
+        list-style: none;
+        margin-right: 1em;
+    }
+    .link_item a{
+        text-decoration: none;
+        padding: .75em 1.5em;
+        border-radius: 12px;
+        font-size: 15px;
+        text-align: center;
+        margin: .75em auto;
+    }
+    .Search_name{
+        background-color: rgba(114, 86, 157, 1);
+        color: white;
+        transition: all 1s ease;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .Search_location{
+        background-color: white;
+        color: rgba(70, 9, 68, 1);
+        transition: all 1s ease;
+        width: 80%;
+        display: block;
+        margin: 0 auto; 
+    }
+    .container4{
+        width: 100%;
+        margin: 1em auto 2em auto;
+    }
+    .ellipse{
+        height: 320px;
+        width: 100%;
+    }
+    .image5{
+        position: absolute;
+        margin-left: 0;
+        right: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+
+    /*============ Search Page ===============*/
+    .container5{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1.5em 0;
+    }
+    .search_holder{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .search_holder p{
+        display: none;
+    }
+    input[type = "search"]{
+        border: none;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
+        font-size: 14px;
+        margin: 0 1em;
+    }
+    .search{
+        width: 100%;
+        background: rgba(255, 255, 255, 0.71);
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        padding: 1em 0;
+        margin-left: 0;
+    }
+    .search > img{
+        margin: 0 1em;
+    }
+    .container6{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container7{
+        background: rgba(255, 255, 255, 0.71);
+        padding: .75em 1.5em; 
+        border-radius: 13px;
+    }   
+    .container9{
+        margin: 1.5em 0;
+    }
+    .search_container{
+        display: flex;
+        margin: 1em 0;
+    }
+    .search_container img{
+        margin-right: 1em;
+    }
+    .important_para{
+        width: 80%;
+        margin: -2em auto 0 auto;
+        position: relative;
+    }
+
+
+    /*============== Location Page ==================*/
+    .location{
+        width: 90%;
+        margin: 1em auto;
+        max-width: 1200px;
+    }
+    .location_container{
+        display: flex;
+    }
+    .container11{
+        background-color: transparent;
+        padding: 2em;
+        border-radius: 5px;
+        width: 100%;
+    }
+    .location_image{
+        max-width: 55%;
+        display: none;
+    }
+    .location_background{
+        background: url(images/Rectangle\ 8.png);
+        height: 50vh;
+        margin: 1em 0;
+    }
+
+   
+    /*============= Direction Page ===============*/
+    .container12{
+        width: 90%;
+        top: 0em;
+    }
+    .hospital_image{
+        display: grid;
+    }
+    .img2{
+        width: 100%;
+        margin: 1em 0;
+        display: none;
+    }
+    .img3{
+        width: 100%;
+        margin: 1em 0;
+    }
+
+        
+
+ 
+}
+
